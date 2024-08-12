@@ -1,7 +1,7 @@
 const loginuser = (email, senha, callback) => {
     setTimeout(() => {
         console.log("Usuario Logado")
-        callback ({email})
+        callback ({email: email})
     },1000)
 }
 
