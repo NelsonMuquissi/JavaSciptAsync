@@ -6,7 +6,7 @@ function promiseloger(email, password){
             return reject(new Error("Erro no Login"));
         }
 
-        console.log("usuario Logado com Sucesso...")
+        console.log("usuário Logado com Sucesso...")
 
         setTimeout(() => {
             resolve({email,password})

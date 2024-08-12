@@ -37,7 +37,7 @@ function getdetailvideo(video, callback){
     }, 1500)
 }
 
-const user2 = otherteste("Caderno@gmail.com", "1234", (user) => {
+const user2 = otherteste("Paulo@gmail.com", "1234", (user) => {
     videos(user.email, (videos) => {
         console.log({videos})
         getdetailvideo(videos[0], (VideosDetalhes) => {
